@@ -51,6 +51,56 @@ def cube_multi(x):
 cube_multi(4)
 
 
+#2020 9평 가형 3점 
+#다음 조건을 만족시키는 두자리수
+# 2의 배수, 십의자리수는 6의 약수다
+
+
+a = []
+
+for i in range(1,100):
+
+    if i % 2 == 0:
+
+        a.append(i)
+
+print(a)
+
+b =[]
+
+for i in a:
+
+    if i>=10 and i<40 :
+
+        b.append(i)
+    
+    elif i>=60 and i<70:
+        b.append(i)
+
+    else:
+        pass
+
+
+       
+
+print(len(b))
+
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
